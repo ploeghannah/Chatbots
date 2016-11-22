@@ -3,8 +3,8 @@
 # Command Line Interface (CLI) version
 
 import time
-import bot as bot
-
+import rogerbot as bot
+#
 
 # Chat Server Framework functions
 
@@ -14,7 +14,7 @@ def sleep(n):
     """
     time.sleep(n)
 
-    
+
 def output(s):
     """Outputs string s as chat message.
     Send the given string to the chat client.
@@ -33,7 +33,9 @@ def main():
     while True:
         humanSpeak = raw_input("> ")
         bot.response(humanSpeak)
-        
+# > this means that u as a user should type something
 
 if __name__ == '__main__':
     main()
+# if u run the chatserever as a script itself it wil execute the main function,
+#when we start the python script we run the main function
