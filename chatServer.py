@@ -4,7 +4,11 @@
 
 import time
 import rogerbot as bot
+<<<<<<< HEAD
 #
+=======
+
+>>>>>>> ArtezGDA/master
 
 # Chat Server Framework functions
 
@@ -33,9 +37,16 @@ def main():
     while True:
         humanSpeak = raw_input("> ")
         bot.response(humanSpeak)
+<<<<<<< HEAD
 # > this means that u as a user should type something
 
 if __name__ == '__main__':
     main()
 # if u run the chatserever as a script itself it wil execute the main function,
 #when we start the python script we run the main function
+=======
+
+
+if __name__ == '__main__':
+    main()
+>>>>>>> ArtezGDA/master
